@@ -16,7 +16,7 @@ pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
 
 def upload_pdf_file():
     st.sidebar.markdown(f"## Welcome to the OCR application for Khmer language")
-    st.sidebar.info(f"Please provide file that you want to extract the text, you can download some example here: https://drive.google.com/drive/folders/1EJ2UdAz-ygAz_EB0k5LEWQN6aVyN5EhY?usp=sharing")
+    st.sidebar.info(f"Please provide file that you want to extract the text")
 
     uploaded_files = st.sidebar.file_uploader("Choose a file", accept_multiple_files=False)
     placeholder = st.sidebar.container()   
