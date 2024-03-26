@@ -12,8 +12,7 @@ import os
 import tempfile
 import re
 
-tesseract_path = subprocess.run(["which", "tesseract"], capture_output=True, text=True).stdout.strip()
-pytesseract.pytesseract.tesseract_cmd = tesseract_path
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
 
 def upload_pdf_file():
     st.sidebar.markdown(f"## Welcome to the image matching tool")
