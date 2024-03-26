@@ -20,7 +20,7 @@ def upload_pdf_file():
 
     uploaded_files = st.sidebar.file_uploader("Choose a file", accept_multiple_files=False)
     placeholder = st.sidebar.container()   
-    option = placeholder.selectbox(f'## Select languages:',('English','Khmer'))
+    option = placeholder.selectbox(f'## Select languages:',('Khmer','English'))
     if uploaded_files is not None:
         with st.expander("**Uploaded PDF**"):
 
