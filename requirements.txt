@@ -1,0 +1,9 @@
+pytesseract
+pdf2image
+streamlit
+opencv-python-headless
+extra_streamlit_components
+streamlit_option_menu
+numpy
+pandas
+
