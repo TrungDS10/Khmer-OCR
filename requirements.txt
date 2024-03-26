@@ -6,4 +6,5 @@ extra_streamlit_components
 streamlit_option_menu
 numpy
 pandas
-
+packages.txt 
+poppler-utils
