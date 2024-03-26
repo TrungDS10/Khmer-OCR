@@ -11,8 +11,9 @@ import cv2
 import os
 import tempfile
 import re
-pytesseract.pytesseract.tesseract_cmd = r"/opt/homebrew/Cellar/tesseract/5.3.4_1/bin/tesseract"
 
+tesseract_path = subprocess.run(["which", "tesseract"], capture_output=True, text=True).stdout.strip()
+pytesseract.pytesseract.tesseract_cmd = tesseract_path
 
 def upload_pdf_file():
     st.sidebar.markdown(f"## Welcome to the image matching tool")
