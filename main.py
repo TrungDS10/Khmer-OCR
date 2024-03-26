@@ -3,7 +3,6 @@ from streamlit_option_menu import option_menu
 from PIL import Image
 from home_setup import *
 from pdf_uploader import *
-import pdf2image
 
 st.set_page_config(
     page_title="PDF Text Converter",
