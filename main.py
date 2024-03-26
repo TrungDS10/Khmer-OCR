@@ -27,7 +27,7 @@ if selected == "Text Converter":
    with st.expander("**README**"):
       st.markdown(
          '''
-         write something
+         Upload pdf file or image to use this application, you can find some example here: https://drive.google.com/drive/folders/1EJ2UdAz-ygAz_EB0k5LEWQN6aVyN5EhY?usp=sharing
          '''
       )   
    display_file = upload_pdf_file()
