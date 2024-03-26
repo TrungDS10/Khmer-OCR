@@ -6,4 +6,3 @@ extra_streamlit_components
 streamlit_option_menu
 numpy
 pandas
-poppler-utils
