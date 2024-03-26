@@ -22,6 +22,13 @@ with st.sidebar:
 if selected == "Home":  
    home_setup()
 
+if selected == "Instruction":
+    st.title("PDF Text Converter Instruction")
+    st.markdown(
+        '''
+        Upload pdf file or image to use this application, you can find some example here: https://drive.google.com/drive/folders/1EJ2UdAz-ygAz_EB0k5LEWQN6aVyN5EhY?usp=sharing
+        '''
+    )   
 if selected == "Text Converter":
    st.title("PDF Text converter")
    with st.expander("**README**"):
