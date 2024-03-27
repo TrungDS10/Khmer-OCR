@@ -26,7 +26,7 @@ if selected == "Instruction":
     st.title("PDF Text Converter Instruction")
     st.markdown(
         '''
-        Upload pdf file or image to use this application, you can find some example here: https://drive.google.com/drive/folders/1EJ2UdAz-ygAz_EB0k5LEWQN6aVyN5EhY?usp=sharing
+        Upload pdf file or image to use this application, you can find some example here: https://drive.google.com/file/d/1YJwgPWeNjYvtSOYqAUdg8lO8I-QPMRuP/view?usp=sharing
         '''
     )   
 if selected == "Text Converter":
@@ -34,7 +34,7 @@ if selected == "Text Converter":
    with st.expander("**README**"):
       st.markdown(
          '''
-         Upload pdf file or image to use this application, you can find some example here: https://drive.google.com/drive/folders/1EJ2UdAz-ygAz_EB0k5LEWQN6aVyN5EhY?usp=sharing
+         Upload pdf file or image to use this application, you can find some example here: https://drive.google.com/file/d/1YJwgPWeNjYvtSOYqAUdg8lO8I-QPMRuP/view?usp=sharing
          '''
       )   
    display_file = upload_pdf_file()
